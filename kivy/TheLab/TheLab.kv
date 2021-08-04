@@ -1,0 +1,25 @@
+# Defining the main interface and with which class it's associated
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation: "vertical"
+    Button:
+        text: "A"
+    Button:
+        text: "B"
+    Button:
+        text: "C"
+
+# Main interface name and objects definition
+<MainWidget>:
+    Button:
+        text: "Hello"
+        size: "100dp", "80dp"
+        pos: "100dp", "200dp"
+        # color is in rgba format, from 0 to 1, refers to text color
+        color: 0, 0, 1, 1  
+    Label:
+        text: "Hello2"
+        size: "100dp", "80dp"
+        pos: "200dp", "300dp"  
+        color: 1, 0, 0, 1  
